@@ -1,0 +1,10 @@
+blog:
+  image: ptimof/ghost
+  # command: npm start --production
+  volumes:
+    - .:/var/lib/ghost
+  env_file:
+    - ./variables.env
+  restart: always
+ # ports:
+#    - "8080:2368"
