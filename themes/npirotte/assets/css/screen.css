@@ -207,7 +207,7 @@ h4, h5, h6 {
     -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    color: #2E2E2E;
+    color: #24282D;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
     font-family: "Open Sans", sans-serif;
@@ -945,6 +945,15 @@ body:not(.post-template) .post-title {
     font-size: 3.6rem;
 }
 
+.post .post-header__image {
+  text-align: center;
+  margin-bottom: 1.4em;
+}
+
+.post .post-header__image img {
+  max-height: 220px;
+}
+
 .post-title a {
     text-decoration: none;
 }
@@ -1061,6 +1070,16 @@ body:not(.post-template) .post-title {
     border: none;
 }
 
+.post-template .cover-image {
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 1em;
+ }
+ 
+ .post-template img {
+    max-width: 320px;
+ }
+
 /* Stop elements, such as img wider than the post content, from
    creating horizontal scroll - slight hack due to imperfections
    with browser width % calculations and rounding */
@@ -1160,7 +1179,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-footer h4 a {
-    color: #2e2e2e;
+    color: #24282D;
     text-decoration: none;
 }
 
@@ -1779,11 +1798,11 @@ body:not(.post-template) .post-title {
         padding: 0 5px;
         border-radius: 0;
         border-width: 0;
-        color: #2e2e2e;
+        color: #24282D;
         background: transparent;
     }
     .menu-button:hover {
-        color: #2e2e2e;
+        color: #24282D;
         border-color: transparent;
         background: none;
     }
